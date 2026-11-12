@@ -1,0 +1,20 @@
+aws_glue_catalog_database.entregas: Creating...
+aws_s3_bucket.datos: Creating...
+aws_glue_catalog_database.entregas: Creation complete after 1s [id=802655955683:final_si_pepe_gabriel_giraldo]
+aws_s3_bucket.datos: Creation complete after 4s [id=final-si-pepe-gabriel-giraldo]
+aws_s3_bucket_public_access_block.datos: Creating...
+aws_athena_workgroup.entregas: Creating...
+aws_glue_catalog_table.entregas: Creating...
+aws_s3_bucket_public_access_block.datos: Creation complete after 0s [id=final-si-pepe-gabriel-giraldo]
+aws_glue_catalog_table.entregas: Creation complete after 0s [id=802655955683:final_si_pepe_gabriel_giraldo:entregas]
+aws_athena_workgroup.entregas: Creation complete after 1s [id=final_si_pepe_gabriel_giraldo]
+
+Apply complete! Resources: 5 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+base_datos = "final_si_pepe_gabriel_giraldo"
+bucket = "final-si-pepe-gabriel-giraldo"
+region = "us-east-1"
+tabla = "entregas"
+workgroup = "final_si_pepe_gabriel_giraldo"

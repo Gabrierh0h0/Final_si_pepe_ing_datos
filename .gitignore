@@ -1,0 +1,28 @@
+# Credenciales
+.aws/
+*.pem
+*.key
+.env
+.env.*
+credentials
+*.credentials
+*.tfvars
+*.tfvars.json
+
+# Terraform: estado y carpeta local
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+# El archivo de bloqueo de proveedores sí se versiona (.terraform.lock.hcl)
+
+# Sistema
+.DS_Store
+Thumbs.db
